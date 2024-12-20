@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
 }
@@ -10,8 +10,8 @@
 
 html {
   scroll-behavior: smooth;
-  background: #fefefe;
-  color: #2a2a2a;
+  background: #050e2d;
+  color: #ffffffd9;
 }
 
 body {
@@ -317,25 +317,25 @@ a {
 
 .home {
   width: 375px;
-  height: 812px;
-  padding: 476px 16px 0;
+  height: 837px;
+
+  padding: 542px 16px 0;
 
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/image/home/Hero\ Image.png");
+  background-image: url("/img/hero/Hero\ Section\ \(2\).png");
 }
 
 .home-title {
-  font-family: Open Sans;
+  font-family: Nunito;
   font-size: 34px;
   font-weight: 700;
-  line-height: 48px;
-  text-align: center;
+  line-height: 50px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #fe5d37;
 }
 .home-text {
   font-family: Roboto;
@@ -343,82 +343,80 @@ a {
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.005em;
-  text-align: center;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #ee93ee;
 
-  padding: 16px 0 24px;
+  padding: 16px 0 32px;
 }
 .home__google-button_link {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
-  height: 62px;
-  width: 203px;
 }
 
 @media screen and (min-width: 1200px) {
   .home {
     width: 1440px;
     height: 800px;
-    padding: 242px 0 0 161px;
+    padding: 230px 0 0 108px;
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("/image/home/hero_section.png");
+    background-image: url("/img/hero/Hero\ Section\ \(1\).png");
   }
 
   .home-title {
-    font-family: Open Sans;
-    font-size: 48px;
+    font-family: Nunito;
+    font-size: 64px;
     font-weight: 700;
-    line-height: 64px;
-    text-align: center;
+    line-height: 80px;
+    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-    width: 401px;
+    width: 591px;
   }
 
   .home-text {
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 38px;
     letter-spacing: 0.005em;
-    text-align: center;
+    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    padding: 16px 0 32px;
-    width: 401px;
+
+    padding: 24px 0 56px;
+    width: 591px;
   }
   .home__google-button_link {
     display: flex;
     align-items: center;
 
-    justify-content: center;
-    margin: 0 0 0 96px;
+    justify-content: start;
+    margin: 0;
   }
 }
 .about {
   padding: 30px 16px;
   margin: auto;
   width: 375px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .about-title {
-  font-family: Open Sans;
-  font-size: 34px;
+  font-family: Nunito;
+  font-size: 28px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 36px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  text-transform: uppercase;
 }
 
 .about-text {
@@ -430,15 +428,16 @@ a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  padding: 24px 0 32px;
+
+  padding: 40px 0 20px;
 }
 .about-img {
   width: 343px;
-  height: 376px;
+  height: 340px;
 }
 @media screen and (min-width: 1200px) {
   .about {
-    padding: 60px 108px;
+    padding: 120px 108px;
     margin: auto;
     width: 1440px;
     display: flex;
@@ -446,19 +445,15 @@ a {
     gap: 132px;
   }
   .about-title {
-    font-family: Open Sans;
+    font-family: Nunito;
     font-size: 48px;
     font-weight: 700;
-    line-height: 58px;
+    line-height: 64px;
     text-align: left;
-    text-transform: uppercase;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .about-img {
-    width: 496px;
-    height: 543px;
-  }
+
   .about-text {
     font-family: Roboto;
     font-size: 16px;
@@ -468,28 +463,51 @@ a {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    padding: 40px 0 0;
+
+    padding: 32px 0 0;
+  }
+  .about-img {
+    width: 392px;
+    height: 370px;
   }
 }
 .advantages {
   width: 375px;
   margin: auto;
-  padding: 30px 16px;
-  display: flex;
+  padding: 30px 16px 60px;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .advantages-list {
   padding-top: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
   width: 375px;
 }
 .advantages-item {
-  margin: 0 12px;
+  width: 343px;
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .advantages-text-bold {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ee93ee;
+}
+.advantages-text {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -498,39 +516,49 @@ a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  padding: 34px 16px;
-  width: 288px;
-  height: 168px;
+}
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/image/advantages/Review\ Text\ Container.png");
-}
-.advantages-text {
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.005em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.advantages-text-bottom {
-  padding-top: 16px;
-  display: flex;
-  gap: 16px;
-  align-items: center;
-}
 @media screen and (min-width: 1200px) {
   .advantages {
     width: 1440px;
-    padding: 60px 0px 106px;
+    padding: 60px 108px 120px;
   }
   .advantages-list {
-    padding-top: 80px;
-    width: 1440px;
+    padding-top: 40px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1224px;
+  }
+  .advantages-item {
+    width: 392px;
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .advantages-text-bold {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .advantages-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
   }
 }
 
@@ -785,7 +813,13 @@ a {
 
 .footer {
   color: #fff;
-  background: #fe5d37;
+  width: 375px;
+  height: 194px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url("/img/footer/Footer375.png");
 
   padding: 40px 16px;
   margin: auto;
@@ -801,7 +835,7 @@ a {
 
   align-items: center;
 
-  gap: 70px;
+  gap: 90px;
 }
 .footer-text {
   font-family: Roboto;
@@ -836,6 +870,8 @@ a {
     flex-direction: column;
     align-items: stretch;
     width: 1440px;
+    height: 226px;
+    background-image: url("/img/footer/Footer\ 1440.png");
   }
   .footer-wrapper {
     display: flex;
@@ -883,10 +919,10 @@ a {
   align-items: center;
   justify-content: center;
 
-  font-family: Open Sans;
-  font-size: 34px;
+  font-family: Nunito;
+  font-size: 48px;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 64px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -965,8 +1001,7 @@ a {
   text-decoration: none;
 }
 .email-link-color {
-  color: #3044ff;
-  text-decoration: none;
+  color: #abb3ff;
 }
 @media screen and (min-width: 1200px) {
   .policy-terms {
@@ -982,10 +1017,10 @@ a {
     padding: 0px 72px;
   }
   .policy-terms-title {
-    font-family: Open Sans;
+    font-family: Nunito;
     font-size: 48px;
     font-weight: 700;
-    line-height: 58px;
+    line-height: 64px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
